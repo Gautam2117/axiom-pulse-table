@@ -9,7 +9,7 @@ It is built to match the UI within **≤ 2px visual diff** (verified with Playwr
 
 ## Live Demo and Video (required deliverables)
 
-- **Vercel deployment:** <PASTE_YOUR_VERCEL_URL_HERE>  
+- **Vercel deployment:** https://axiom-pulse-table-woad.vercel.app/pulse
 - **1-2 min YouTube walkthrough:** https://youtu.be/KeWrQcDmWFk
 
 ---
