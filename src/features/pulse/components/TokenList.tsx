@@ -79,12 +79,14 @@ export function TokenList({
 
   const sorted = useSortedTokens(column, items);
 
+  // eslint-disable-next-line react-hooks/incompatible-library
   const virtual = useVirtualizer({
     count: isLoading ? 10 : sorted.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => ROW_H,
     overscan: 8,
   });
+
 
   if (isError) {
     return (
